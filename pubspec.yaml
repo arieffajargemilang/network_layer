@@ -12,13 +12,9 @@ dependencies:
     sdk: flutter
 
   #NETWORK
-  json_annotation:
-  json_serializable:
   dio:
 
   #UTITILES
-  freezed_annotation:
-  freezed:
   connectivity:
 
 
