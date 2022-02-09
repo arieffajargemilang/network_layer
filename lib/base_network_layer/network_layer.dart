@@ -59,7 +59,7 @@ class NetworkLayer{
         networkResponse = NetworkResponse(
             statusCode: e.response?.statusCode,
             statusMessage: BasrRequestExceptions.fromDioError(e).toString(),
-            data: null
+            data: e.response
         );
       }
     }else{
